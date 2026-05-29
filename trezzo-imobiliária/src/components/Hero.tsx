@@ -37,9 +37,7 @@ export default function Hero({ settings }: HeroProps) {
     window.open(link, '_blank', 'noreferrer');
   };
 
-  // We loaded our custom generated image.
-  // Note: Since this is a local build, referencing `/src/assets/images/trezzo_hero_bg_1780050611050.png` works perfectly.
-  const bgImgSrc = '/src/assets/images/trezzo_hero_bg_1780050611050.png';
+  const bgImgSrc = '/src/assets/images/download.jpg';
 
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-between overflow-hidden bg-[#0A0A0A]">
