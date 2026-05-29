@@ -37,7 +37,7 @@ export default function Hero({ settings }: HeroProps) {
     window.open(link, '_blank', 'noreferrer');
   };
 
-  const bgImgSrc = '/src/assets/images/download.jpg';
+  const bgImgSrc = 'https://raw.githubusercontent.com/caiquecustodiob/trezzo/refs/heads/main/trezzo-imobili%C3%A1ria/src/assets/images/trezzo_hero_bg_1780050611050.png';
 
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-between overflow-hidden bg-[#0A0A0A]">
